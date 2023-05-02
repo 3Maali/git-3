@@ -1,12 +1,12 @@
 public class Main
 {
 	public static void main(String[] args) {
-	String x = "*";
+	String STAR = "*";
 	
 	for(int i=0; i <7; i++){
 	    if(i<4){
-	        System.out.println(x);
-			x=x+"*";
+	        System.out.println(STAR);
+			STAR=STAR+"*";
 	    } else
-	    System.out.println(x.substring(i-1));
+	    System.out.println(STAR.substring(i-1));
 	    }}}

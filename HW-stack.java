@@ -6,16 +6,16 @@ public class Main
 	public static void main(String[] args) {
 		
 		Stack<String> s = new Stack<String>();
-		String x = "*";
+		String STAR = "*";
 		 
 		for(int i =0; i<8;i++){
 		    if(i<4){
-		        s.push(x);
+		        STAR.push(x);
 		    System.out.println(x);
 		    
-		    x=x+"*";
+		    STAR=STAR+"*";
 		    
-		    }  else if (i==4){ s.pop();}
+		    }  else if (i==4){ STAR.pop();}
 		     else{
-		        System.out.println(s.pop());
+		        System.out.println(STAR.pop());
 		      }	}	}}
